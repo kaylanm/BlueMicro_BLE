@@ -26,9 +26,34 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
 
+#define GPIO(port, pin) ((port << 5) | pin)
+
 /* key matrix pins */
-#define MATRIX_ROW_PINS {6, 8, 17, 20, 22}
-#define MATRIX_COL_PINS {24, 32, 11, 36, 38, 31, 29 ,2, 47, 45 , 43, 10, 9, 33}
+#define MATRIX_ROW_PINS { \
+    GPIO(0, 6),  \
+    GPIO(0, 8),  \
+    GPIO(0, 17), \
+    GPIO(0, 20), \
+    GPIO(0, 22), \
+}
+
+#define MATRIX_COL_PINS { \
+    GPIO(0, 24), \
+    GPIO(1, 0),  \
+    GPIO(0, 11), \
+    GPIO(1, 4),  \
+    GPIO(1, 6),  \
+    GPIO(0, 31), \
+    GPIO(0, 29), \
+    GPIO(0, 2),  \
+    GPIO(1, 15), \
+    GPIO(1, 13), \
+    GPIO(1, 11), \
+    GPIO(0, 10), \
+    GPIO(0, 9),  \
+    GPIO(1, 1),  \
+}
+
 #define UNUSED_PINS {}
 
 /* COL2ROW or ROW2COL */
