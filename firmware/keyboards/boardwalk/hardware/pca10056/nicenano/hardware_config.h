@@ -43,14 +43,14 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
     GPIO(0, 11), \
     GPIO(1, 4),  \
     GPIO(1, 6),  \
-    GPIO(0, 31), \
-    GPIO(0, 29), \
-    GPIO(0, 2),  \
-    GPIO(1, 15), \
-    GPIO(1, 13), \
-    GPIO(1, 11), \
-    GPIO(0, 10), \
     GPIO(0, 9),  \
+    GPIO(0, 10), \
+    GPIO(1, 11), \
+    GPIO(1, 13), \
+    GPIO(1, 15), \
+    GPIO(0, 2),  \
+    GPIO(0, 29), \
+    GPIO(0, 31), \
     GPIO(1, 1),  \
 }
 
